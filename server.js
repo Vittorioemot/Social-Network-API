@@ -1,10 +1,16 @@
-const router = require("express").Router();
-const apiRoutes = require("./api");
+const express = require("express");
+const db = require("./config/connection");
+const routes = require("./routes");
 
-router.use("/api", apiRoutes);
+const app = express();
+const PORT = process.env.PORT || 3001;
 
-router.use((req, res) => {
-  res.status(404).send("<h1> 404 Error!</h1>");
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(routes);
+
+db.once("open", () => {
+  app.listen(PORT, () => {
+    console.log(`API server running on port ${PORT}!`);
+  });
 });
-
-module.exports = router;
