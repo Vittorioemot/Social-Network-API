@@ -8,7 +8,7 @@ This API is for a social network web application where users can share their tho
 [ App Image](https://github.com/Vittorioemot/SOCIAL-NETWORK-API/images/social-network-users.png)
 
 
-[App Image](https://github.com/VittorioemotSOCIAL-NETWORK-API/images\social-network-gett all thoughts.png
+[App Image](https://github.com/Vittorioemot/SOCIAL-NETWORK-API/images\social-network-gett all thoughts.png
 
 Walkthrough Video
 
