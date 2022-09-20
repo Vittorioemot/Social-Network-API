@@ -5,11 +5,11 @@ Description
 This API is for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. It use Express.js for routing, a MongoDB database, and the Mongoose ODM. 
 
 # Screenshot
-https://github.com/Vittorioemot/Social-Network-API/blob/main/images/social-network-users.png
+![App Image](https://github.com/Vittorioemot/Social-Network-API/blob/main/images/social-network-users.png)
 
 
 
-https://github.com/Vittorioemot/Social-Network-API/blob/main/images/social-network-gett%20all%20thoughts.png
+![App Image 2](https://github.com/Vittorioemot/Social-Network-API/blob/main/images/social-network-gett%20all%20thoughts.png)
 
 
 Walkthrough Video
